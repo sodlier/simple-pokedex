@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI Fetch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>PokeAPI Fetch</h1>
+
+    <div class="search-container">
+        <input type="text" id="pokemonInput" placeholder="Enter Pokemon name">
+        <button onclick="fetchPokemon()">Search</button>
+    </div>
+
+    <div class="card">
+        <h2 class="name">Loading...</h2>
+        <img src="" alt="Pokemon Image" class="sprite hidden">
+        <p class="weight-container hidden"><strong>Weight: </strong><span class="weight"></span> kg</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
